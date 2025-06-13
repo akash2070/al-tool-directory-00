@@ -1,0 +1,13 @@
+{
+  "name": "ai-tools-directory",
+  "version": "1.0.0",
+  "description": "Comprehensive directory of 110+ AI tools with search and filtering",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'",
+    "start": "echo 'Static site ready for deployment'"
+  },
+  "keywords": ["ai", "tools", "directory", "chatgpt", "midjourney", "github-copilot"],
+  "author": "AI Tools Directory",
+  "license": "MIT"
+}

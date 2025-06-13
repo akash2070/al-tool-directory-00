@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tools Directory - Comprehensive Database of 110+ AI Platforms</title>
+    <meta name="description" content="Discover 110+ AI tools across 12 categories. Find the perfect AI solution for writing, development, design, video editing, and more with authentic company logos and detailed information.">
+    <meta property="og:title" content="AI Tools Directory - 110+ AI Platforms Database">
+    <meta property="og:description" content="Comprehensive directory of AI tools with search, filtering, and authentic company logos. Find ChatGPT, GitHub Copilot, Midjourney and more.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">
+                    <i class="fas fa-robot"></i>
+                    AI Tools Directory
+                </h1>
+                <div class="header-actions">
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="hero">
+                <h2>Discover 110+ AI Tools</h2>
+                <p>Find the perfect AI solution for your needs</p>
+            </div>
+
+            <div class="search-section">
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Search AI tools...">
+                </div>
+            </div>
+
+            <div class="filters-section">
+                <div class="filter-group">
+                    <label>Category</label>
+                    <select id="categoryFilter">
+                        <option value="">All Categories</option>
+                        <option value="writing">Writing</option>
+                        <option value="development">Development</option>
+                        <option value="design">Design</option>
+                        <option value="video">Video</option>
+                        <option value="audio">Audio</option>
+                        <option value="productivity">Productivity</option>
+                        <option value="marketing">Marketing</option>
+                        <option value="research">Research</option>
+                        <option value="chatbots">Chatbots</option>
+                        <option value="image">Image</option>
+                        <option value="automation">Automation</option>
+                        <option value="analytics">Analytics</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label>Pricing</label>
+                    <select id="pricingFilter">
+                        <option value="">All Pricing</option>
+                        <option value="free">Free</option>
+                        <option value="freemium">Freemium</option>
+                        <option value="paid">Paid</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="results-info">
+                <span id="resultsCount">110 tools found</span>
+            </div>
+
+            <div class="tools-grid" id="toolsGrid">
+                <!-- Tools will be populated by JavaScript -->
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 AI Tools Directory. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
