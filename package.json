@@ -5,9 +5,12 @@
   "main": "index.html",
   "scripts": {
     "build": "echo 'Static site - no build needed'",
-    "start": "echo 'Static site ready for deployment'"
+    "start": "serve public"
   },
   "keywords": ["ai", "tools", "directory", "chatgpt", "midjourney", "github-copilot"],
   "author": "AI Tools Directory",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
 }
